@@ -35,3 +35,21 @@ let someNumber = 33;
  let someStringNumber = String(someNumber);
  console.log(someStringNumber); //33
  console.log(typeof someStringNumber); //string
+
+ // *********************************** Operations *****************************************
+
+ let value = 3;
+ let negValue = -value;
+ console.log(negValue);       //-3
+
+ //(2+2)
+ //(2-2)
+ //(2*2)
+ //(2**3) 
+ //(2/3)
+ //(2%3)
+
+ 
+
+
+
