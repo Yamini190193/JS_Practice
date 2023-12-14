@@ -40,3 +40,22 @@ console.log(url.includes('hitesh'));
 const myName = new String('yamini-hitesh-patil');
 
 console.log(myName.split('-'));
+
+// reverse a string
+function reversestr(){
+
+    let str = "yamini" ;
+
+   //  console.log(typeof str);
+   //  console.log(str.length);
+
+  let str2 = "";
+
+   for(i = str.length - 1 ; i >= 0 ; i--)
+     {
+       str2 += str[i];
+      }
+
+  console.log(str2);
+}
+reversestr();
